@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSAS Weekly Bulletin - 第13期</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", PingFang SC, sans-serif;
+        }
+        body {
+            background: #ffffff;
+            padding: 30px 16px;
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        /* 整体大容器：干净圆角 + 轻微阴影 */
+        .container {
+            border-radius: 22px;
+            padding: 35px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        /* 返回首页链接 - 放在容器右上角 */
+        .back-link {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #6b7280;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        .back-link:hover {
+            color: #374151;
+        }
+        /* 标题区 */
+        .header {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f3f4f6;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #6b7280;
+        }
+        /* 资讯卡片通用样式 */
+        .card {
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-content {
+            font-size: 15px;
+            line-height: 1.8;
+            color: #374151;
+        }
+        /* 多巴胺配色方案 */
+        .card-yellow {
+            background: linear-gradient(135deg, #fef9c3 0%, #fef3c7 100%);
+            border-left: 4px solid #fbbf24;
+        }
+        .card-blue {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-left: 4px solid #3b82f6;
+        }
+        .card-pink {
+            background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+            border-left: 4px solid #ec4899;
+        }
+        /* 互动话题特殊样式 */
+        .interaction-card {
+            background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+            border-left: 4px solid #6366f1;
+            border-radius: 16px;
+            padding: 24px;
+            margin-top: 30px;
+        }
+        .interaction-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #3730a3;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .interaction-content {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #312e81;
+        }
+        /* 底部信息 */
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #f3f4f6;
+            font-size: 13px;
+            color: #9ca3af;
+            text-align: center;
+        }
+    </style>
+
+    <!-- 鈺愨晲鈺愨晲鈺?鐧惧害缁熻浠ｇ爜 鈺愨晲鈺?-->
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?45773f9ac09979d8776dd2c5487fe303";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <!-- ========================= -->
+</head>
+<body>
+    <div class="container">
+        <!-- 返回首页链接 -->
+        <a href="index.html" class="back-link">← 返回首页</a>
+        
+        <!-- 标题区 -->
+        <div class="header">
+            <div class="title">科室简讯</div>
+            <div class="subtitle">第13期 ｜ 2026.06.14</div>
+        </div>
+
+        <!-- 板块1：浅柠檬黄 -->
+        <div class="card card-yellow">
+            <div class="card-title">⛏️ 日系车企陷稀土供应危机</div>
+            <div class="card-content">
+                其新能源汽车核心部件高度依赖中国稀土加工能力，早年布局的替代方案难以撼动中国稀土全产业链优势，<strong style="color: #1f2937;">背后是新能源时代中国在汽车核心产业链的主导权持续提升。</strong>
+            </div>
+        </div>
+
+        <!-- 板块2：浅天蓝 -->
+        <div class="card card-blue">
+            <div class="card-title">🚗 汽车业的"科技+想象"新逻辑</div>
+            <div class="card-content">
+                从上海高考"科技与想象"题看行业变革，智能电动时代的汽车已从代步工具拓展为生活场景延伸，<strong style="color: #1f2937;">需以技术为基础、想象为牵引，平衡"科技至上"与用户体验。</strong>
+            </div>
+        </div>
+
+        <!-- 板块3：浅玫瑰粉 -->
+        <div class="card card-pink">
+            <div class="card-title">📋 交通&购车政策迎双重调整</div>
+            <div class="card-content">
+                ①<strong style="color: #1f2937;">"开门杀"事故赔偿新规6月底落地，</strong>明确车主、驾驶人、承租人等主体的过错责任划分，网约车等运营场景需结合实际行为判定责任；②<strong style="color: #1f2937;">上海汽车以旧换新补贴升级为"即时摇号"，</strong>7月起每日开放申请，中签后需在规定时间内完成购车。
+            </div>
+        </div>
+
+        <!-- 互动话题 -->
+        <div class="interaction-card">
+            <div class="interaction-title">💬 本期互动话题</div>
+            <div class="interaction-content">
+                <strong style="color: #312e81;">"开门杀"赔偿新规</strong>把责任分得更细了，以后坐车你会更留意开门安全不？<br><br>
+                上海以旧换新补贴改成<strong style="color: #312e81;">即时摇号</strong>，相当于"天天能抽补贴"，你觉得这种补贴模式比"先到先得"更公平不？
+            </div>
+        </div>
+
+        <!-- 底部信息 -->
+        <div class="footer">
+            报送：科室各成员 | 整理人：杨秀丽
+        </div>
+    </div>
+</body>
+</html>

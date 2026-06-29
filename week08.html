@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSAS Weekly Bulletin - 第8期</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", PingFang SC, sans-serif;
+        }
+        body {
+            background: #ffffff;
+            padding: 30px 16px;
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        /* 整体大容器：干净圆角 + 轻微阴影 */
+        .container {
+            border-radius: 22px;
+            padding: 35px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        /* 返回首页链接 - 放在容器右上角 */
+        .back-link {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #6b7280;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        .back-link:hover {
+            color: #374151;
+        }
+        /* 标题区 */
+        .header {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f3f4f6;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #6b7280;
+        }
+        /* 资讯卡片通用样式 */
+        .card {
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-content {
+            font-size: 15px;
+            line-height: 1.8;
+            color: #374151;
+        }
+        /* 多巴胺配色方案 */
+        .card-yellow {
+            background: linear-gradient(135deg, #fef9c3 0%, #fef3c7 100%);
+            border-left: 4px solid #fbbf24;
+        }
+        .card-blue {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-left: 4px solid #3b82f6;
+        }
+        .card-pink {
+            background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+            border-left: 4px solid #ec4899;
+        }
+        /* 底部信息 */
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #f3f4f6;
+            font-size: 13px;
+            color: #9ca3af;
+            text-align: center;
+        }
+    </style>
+
+    <!-- 鈺愨晲鈺愨晲鈺?鐧惧害缁熻浠ｇ爜 鈺愨晲鈺?-->
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?45773f9ac09979d8776dd2c5487fe303";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <!-- ========================= -->
+</head>
+<body>
+    <div class="container">
+        <!-- 返回首页链接 -->
+        <a href="index.html" class="back-link">← 返回首页</a>
+        
+        <!-- 标题区 -->
+        <div class="header">
+            <div class="title">科室简讯</div>
+            <div class="subtitle">第8期 ｜ 2026.05.10</div>
+        </div>
+
+        <!-- 板块1：浅柠檬黄 -->
+        <div class="card card-yellow">
+            <div class="card-title">🚗 大SUV扎堆"内卷"，热闹背后藏隐忧</div>
+            <div class="card-content">
+                北京车展掀起大尺寸SUV热潮，各大车企争相推出5米级高端车型，<strong style="color: #1f2937;">外观、配置高度同质化。</strong>但行业需求有限、产能过剩，多数车型盈利空间狭小，车企比拼的不再是"车够大"，而是谁更懂真实用车需求。
+            </div>
+        </div>
+
+        <!-- 板块2：浅天蓝 -->
+        <div class="card card-blue">
+            <div class="card-title">⚡ 超充电池技术拉满，上车却遇多重门槛</div>
+            <div class="card-content">
+                行业已实现<strong style="color: #1f2937;">6分钟极速超充技术，严寒环境下也能快速补能，</strong>但迟迟难以普及。一方面电池造价高昂、高端车型才配得起，另一方面超充桩建设成本高、布局不足，再加上车企自研电池的技术壁垒，让"快充自由"暂时难以落地。
+            </div>
+        </div>
+
+        <!-- 板块3：浅玫瑰粉 -->
+        <div class="card card-pink">
+            <div class="card-title">🪟 车窗变身智能屏，解锁人车交互新玩法</div>
+            <div class="card-content">
+                北京车展亮相全新车窗投影技术，汽车侧窗可秒变智能显示屏，<strong style="color: #1f2937;">停车时投射车辆信息、赛事画面，行驶中提供路况、充电建议，</strong>还能通过AI主动给出出行提醒，车窗不再只是挡风玻璃，成为全新的人车沟通窗口。
+            </div>
+        </div>
+
+        <!-- 底部信息 -->
+        <div class="footer">
+            报送：科室各成员 | 整理人：杨秀丽
+        </div>
+    </div>
+</body>
+</html>
