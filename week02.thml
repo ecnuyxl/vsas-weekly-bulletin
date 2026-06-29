@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSAS Weekly Bulletin - 第2期</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", PingFang SC, sans-serif;
+        }
+        body {
+            background: #ffffff;
+            padding: 30px 16px;
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        /* 整体大容器：干净圆角 + 轻微阴影 */
+        .container {
+            border-radius: 22px;
+            padding: 35px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        /* 返回首页链接 - 放在容器右上角 */
+        .back-link {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 16px;
+            color: #0052cc;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            color: #003380;
+        }
+        /* 标题区 */
+        .head {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+        h2 {
+            font-size: 36px;
+            color: #222;
+            font-weight: 700;
+            line-height: 1.5;
+        }
+        .date {
+            color: #666;
+            font-size: 17px;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+        /* 板块标题 */
+        .section {
+            margin-bottom: 35px;
+        }
+        .section h3 {
+            font-size: 22px;
+            color: #222;
+            margin-bottom: 20px;
+            padding-left: 8px;
+            line-height: 1.6;
+        }
+        /* 每条资讯一个小卡片*/
+        .item {
+            padding: 20px 22px;
+            border-radius: 14px;
+            margin-bottom: 14px;
+            font-size: 16px;
+            line-height: 1.8;
+            color: #333;
+        }
+        /* 卡片内的标题样式 */
+        .item-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        /* 互动话题区域 */
+        .topic-section {
+            background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+            padding: 25px;
+            border-radius: 14px;
+            border-left: 4px solid #6366f1;
+        }
+        .topic-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .topic-content {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #374151;
+        }
+        /* 三个板块·超柔和多巴胺配色（不刺眼、不突兀、超好看） */
+        .block1 .item { background: #fef3c7; } /* 浅柠檬黄 - 人形机器人 */
+        .block2 .item { background: #dbeafe; } /* 浅天蓝 - 闪充技术 */
+        .block3 .item { background: #fce7f3; } /* 浅玫瑰粉 - 自助洗车 */
+    </style>
+
+    <!-- 鈺愨晲鈺愨晲鈺?鐧惧害缁熻浠ｇ爜 鈺愨晲鈺?-->
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?45773f9ac09979d8776dd2c5487fe303";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <!-- ========================= -->
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回首页</a>
+        
+        <div class="head">
+            <h2>科室简讯</h2>
+            <div class="date">第2期 ｜ 2026.03.29</div>
+        </div>
+
+        <!-- 板块1：浅柠檬黄 -->
+        <div class="section block1">
+            <div class="item">
+                <div class="item-title">🤖 上汽通用奥特能超级工厂迎来人形机器人</div>
+                <div><strong>行业首批量产人形机器人"能仔1号"</strong>将在别克至境E7电池量产线作业，填补传统工业机器人在负载和效率上的局限，标志着智能制造迈入新阶段。</div>
+            </div>
+        </div>
+
+        <!-- 板块2：浅天蓝 -->
+        <div class="section block2">
+            <div class="item">
+                <div class="item-title"> 闪充技术快速迭代引发换电模式讨论</div>
+                <div><strong>比亚迪10%-90%仅需9分钟，</strong>引发"换电模式是否会被替代"的讨论。业内认为两者并非对立，将在不同场景长期共存：<strong>闪充主导C端市场</strong>，换电仍在重卡、网约车等高频运营场景具备优势。</div>
+            </div>
+        </div>
+
+        <!-- 板块3：浅玫瑰粉 -->
+        <div class="section block3">
+            <div class="item">
+                <div class="item-title">🧼 10元自助洗车火爆</div>
+                <div>折射出从<strong>"服务交付"到"场景共创"</strong>的商业模式转变，精细化运营与数据思维重塑汽车消费底层逻辑，消费者更注重性价比与参与感。</div>
+            </div>
+        </div>
+
+        <!-- 互动话题 -->
+        <div class="section">
+            <div class="topic-section">
+                <div class="topic-title">💬 互动话题（随缘聊～）</div>
+                <div class="topic-content">
+                    <strong>话题一：</strong>你更看好闪充还是换电？<br /><br />
+                    <strong>话题二：</strong>会尝试自助洗车吗？
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
