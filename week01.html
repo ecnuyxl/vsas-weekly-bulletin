@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSAS Weekly Bulletin - 第1期</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", PingFang SC, sans-serif;
+        }
+        body {
+            background: #ffffff;
+            padding: 30px 16px;
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        /* 整体大容器：干净圆角 + 轻微阴影 */
+        .container {
+            border-radius: 22px;
+            padding: 35px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        /* 返回首页链接 - 放在容器右上角 */
+        .back-link {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 16px;
+            color: #0052cc;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            color: #003380;
+        }
+        /* 标题区 */
+        .head {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+        h2 {
+            font-size: 36px;
+            color: #222;
+            font-weight: 700;
+            line-height: 1.5;
+        }
+        .date {
+            color: #666;
+            font-size: 17px;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+        /* 板块标题 */
+        .section {
+            margin-bottom: 35px;
+        }
+        .section h3 {
+            font-size: 22px;
+            color: #222;
+            margin-bottom: 20px;
+            padding-left: 8px;
+            line-height: 1.6;
+        }
+        /* 每条资讯一个小卡片*/
+        .item {
+            padding: 20px 22px;
+            border-radius: 14px;
+            margin-bottom: 14px;
+            font-size: 16px;
+            line-height: 1.8;
+            color: #333;
+        }
+        /* 卡片内的标题样式 */
+        .item-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        /* 金句区域 */
+        .quote-section {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            padding: 25px;
+            border-radius: 14px;
+            border-left: 4px solid #f59e0b;
+        }
+        .quote-text {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #1f2937;
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+        .quote-author {
+            font-size: 15px;
+            color: #4b5563;
+            text-align: right;
+        }
+        /* 三个板块·超柔和多巴胺配色（不刺眼、不突兀、超好看） */
+        .block1 .item { background: #fef3c7; } /* 浅柠檬黄 - 智能体技术 */
+        .block2 .item { background: #dbeafe; } /* 浅天蓝 - F1赛事 */
+        .block3 .item { background: #fce7f3; } /* 浅玫瑰粉 - 座舱交互 */
+    </style>
+
+    <!-- 鈺愨晲鈺愨晲鈺?鐧惧害缁熻浠ｇ爜 鈺愨晲鈺?-->
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?45773f9ac09979d8776dd2c5487fe303";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <!-- ========================= -->
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回首页</a>
+        
+        <div class="head">
+            <h2>科室简讯</h2>
+            <div class="date">第1期 ｜ 2026.03.22</div>
+        </div>
+
+        <!-- 板块1：浅柠檬黄 -->
+        <div class="section block1">
+            <div class="item">
+                <div class="item-title">🤖 智能体技术引领融合</div>
+                <div><strong>智己汽车发布行业首个超级智能体 IM Ultra Agent，</strong>全球首搭千问大模型。技术亮点在于"舱驾一体"，依托全线控底盘，系统响应时间缩短至<strong>20毫秒级</strong>，实现车辆"全域代劳"式智能服务。</div>
+            </div>
+        </div>
+
+        <!-- 板块2：浅天蓝 -->
+        <div class="section block2">
+            <div class="item">
+                <div class="item-title">🏎️ 凯迪拉克、奥迪加入F1赛事</div>
+                <div><strong>赛事赋能品牌溢价：</strong>2026年F1中国大奖赛观赛人次创近20年新高，豪华品牌通过顶级赛事提升品牌价值与影响力。</div>
+            </div>
+        </div>
+
+        <!-- 板块3：浅玫瑰粉 -->
+        <div class="section block3">
+            <div class="item">
+                <div class="item-title">🛡️ 座舱交互安全标准确立</div>
+                <div><strong>行业技术路线趋于明确：</strong>座舱将采用"物理按键+触控"混合架构。强调核心高频功能（如转向、雨刮）必须保留物理操作，以满足最新的安全法规要求，兼顾驾驶安全与用户体验。</div>
+            </div>
+        </div>
+
+        <!-- 本周金句 -->
+        <div class="section">
+            <div class="quote-section">
+                <div class="quote-text">
+                    "二次创业，需要一场直面自身短板、摒弃守成思维的自我革命。"
+                </div>
+                <div class="quote-author">——上汽集团党委书记、董事长 王晓秋</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
